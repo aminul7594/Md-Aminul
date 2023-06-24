@@ -1,0 +1,82 @@
+#skills{
+    padding-bottom: 50px;
+    background-color: #112e42;
+}
+.skils_head h2{
+    @include header;
+    padding-bottom: 30px;
+}
+.skils_head h2 span{
+    color: #05a4ea;
+}
+.skills_titel h2{
+    color: #f1f1f1;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.skils_main{
+    border: 2px solid #05a4ea;
+    border-radius: 5px;
+    padding: 20px;
+    width: 95%;
+}
+.skils_main h2{
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #f1f1f1;
+    margin-top: 35px;
+}
+.skils_main h2:first-child{
+    margin-top: 0 !important;
+}
+.html{
+    animation: html 1s;
+}
+@keyframes html{
+    from{
+        width: 0;
+    }
+    to{
+        width: 90%;
+    }
+}
+.css{
+    animation: css 1s;
+}
+@keyframes css{
+    from{
+        width: 0;
+    }
+    to{
+        width: 80%;
+    }
+}
+.javaSript{
+    animation: javaSript 1s;
+}
+@keyframes javaSript{
+    from{
+        width: 0;
+    }
+    to{
+        width: 60%;
+    }
+}
+.php{
+    animation: php 1s;
+}
+@keyframes php{
+    from{
+        width: 0;
+    }
+    to{
+        width: 75%;
+    }
+}
+.progress-bar {
+    background-color: #05a4ea !important;
+    color: #0c1013;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+}

@@ -1,0 +1,93 @@
+#about{
+    background-color: #112e42;
+    padding-bottom: 40px;
+}
+@mixin header{
+    color: #f1f1f1;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.about_head h2{
+    @include header;
+}
+.about_head h2 span{
+    color: #1291c8;
+}
+.about_img {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%) rotate(0);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin: 0 auto;
+    border-top: .2rem solid #112e42;
+    border-bottom: .2rem solid #112e42;
+    border-left: .2rem solid #05a4ea;
+    border-right: .2rem solid #05a4ea;
+    animation: aboutSpinner 8s linear infinite;
+}
+
+.about_img img{
+    width: 90%;
+    border-radius: 50%;
+    border: 2px solid #1291c8;
+}
+.about_text{
+    text-align: center;
+}
+.about_text h2{
+    color: #f1f1f1;
+    margin-top: 30px;
+}
+.about_text p{
+    color: #f1f1f1;
+    padding: 10px 50px;
+    line-height: 26px;
+}
+.about_btn a{
+    @include button;
+    width: 125px;
+    font-size: 18px;
+    margin-right: 20px;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    transition: .5s;
+    &:hover{
+     color: #05a4ea !important;
+    }
+    &:hover::before{
+     width: 100%;
+    }
+    &::before{
+     position: absolute;
+     content: "";
+     left: 0;
+     top: 0;
+     width: 0;
+     height: 100%;
+     background-color: #091b29;
+     transition: .5s;
+     z-index: -1;
+    }
+}
+@keyframes aboutSpinner {
+    100% {
+        transform: translate(-50% , -50%) rotate(360deg);
+    }
+}

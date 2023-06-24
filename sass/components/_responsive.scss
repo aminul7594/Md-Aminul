@@ -1,0 +1,586 @@
+
+@media(min-width:320px) and  (max-width:575.98px){
+    .container{
+        padding: 0 20px;
+    }
+    // nav start
+    .navbar-toggler:focus{
+        outline: 0;
+        box-shadow: 0 0 0 transparent !important;
+    }
+    .navbar-toggler i {
+        color: #ffffff !important;
+        outline: 0;
+        cursor: pointer;
+    }
+    .main_menu {
+        background-color: #091b299e !important;
+    }
+    .main_menu ul li{
+        margin: 0 auto;
+    }
+    // nav end
+
+    // banner start
+    #banner {
+        position: relative;
+        margin-top: -127px;
+        background-color: #091b29;
+    }
+    .banner_text h1 {
+        color: #f1f1f1;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .banner_text .text_ani h2 {
+        font-size: 22px;
+        width: 215px;
+    }
+    @keyframes animat {
+        0%,10%,100% {
+            background-position: -215px 0;
+        }
+        65%,85% {
+            background-position: 0 0;
+        }
+    }
+    .banner_text p {
+        font-size: 16px;
+        margin-bottom: 0;
+        margin-top: 15px;
+    }
+    .ban_btn {
+        margin-top: 24px;
+    }
+    @mixin btn320{
+        padding: 3px 0;
+        font-weight: 600;
+        width: 80px;
+        font-size: 14px;
+    }
+    .ban_btn a {
+        @include btn320;
+    }
+    .ban_icon {
+        margin-top: 22px;
+    }
+    .ban_icon a {
+        width: 25px;
+        height: 25px;
+        margin-right: 14px;
+        font-size: 13px;
+    }
+    .banner_img {
+        text-align: end;
+        margin-top: 10px;
+    }
+    .banner_img img {
+        width: 85%;
+    }
+    // banner end
+
+    // about start
+    #about{
+        padding-bottom: 20px !important;
+    }
+    @mixin header320{
+        font-size: 32px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+    .about_head h2{
+        @include header320;
+    }
+    .about_img {
+        width: 200px;
+        height: 200px;
+    }
+    .about_text h2 {
+        margin-top: 20px;
+    }
+    .about_text p {
+        padding: 0;
+        line-height: 26px;
+    }
+    .about_btn a {
+        @include btn320;
+        width: 90px;
+    }
+    // about end
+    
+    // journey start
+    #journey {
+        background-color: #091b29;
+        padding-bottom: 36px;
+    }
+    .journey_head h2{
+        @include header320;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .titel h2 {
+        color: #f1f1f1 !important;
+        margin-bottom: 15px;
+        margin-top: 26px;
+        margin-left: 20px;
+    }
+    // journey end
+
+    //skils start
+    #skills {
+        padding-bottom: 30px;
+    }
+    .skils_head h2{
+        @include header320;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .skills_titel h2 {
+        font-size: 22px;
+        margin-top: 25px;
+    }
+    //skils end
+
+    //contact start
+    #contact{
+        padding-bottom: 24px;
+    }
+    .contact_head h2{
+        @include header320;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .form {
+        display: grid;
+        gap: 0;
+    }
+    .input {
+        border: 2px solid #1291c8;
+        border-radius: 5px;
+        padding: 15px 20px;
+        background-color: transparent;
+        color: #f1f1f1 !important;
+        outline: 0;
+        width: 100%;
+        margin-top: 24px;
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+    .textarea {
+        margin-top: 20px;
+        height: 100px;
+    }
+    .contact_button a {
+        @include btn320;
+    }
+    //contact end
+
+    // footer start
+    footer p {
+        font-size: 13px;
+        text-align: center;
+    }
+    .footer_icon {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .footer_icon a{
+        width: 25px;
+        height: 25px;
+        font-size: 13px;
+        margin-right: 14px;
+    }
+    // footer end
+
+    // back btn start
+    .scl_btn i {
+        bottom: 9px !important;
+        width: 27px !important;
+        height: 27px !important;
+        line-height: 25px !important;
+        font-size: 15px !important;
+        animation: ami 1s !important;
+    }
+    @keyframes ami{
+        from { right:50px; bottom:-10px; }
+        to { right: 50px; bottom: 10px;}
+    }
+    // back btn end
+}
+
+@media(min-width:576px) and  (max-width:767.98px){
+    .container{
+        padding: 0 20px !important;
+    }
+    // nav start
+    .navbar-toggler:focus{
+        outline: 0;
+        box-shadow: 0 0 0 transparent !important;
+    }
+    .navbar-toggler i {
+        color: #ffffff !important;
+        outline: 0;
+        cursor: pointer;
+    }
+    .main_menu {
+        background-color: #091b299e !important;
+    }
+    .main_menu ul li{
+        margin: 0 auto;
+    }
+    // nav end
+    
+    // banner start
+    #banner {
+        position: relative;
+        margin-top: -127px;
+        background-color: #091b29;
+    }
+    .banner_text h1 {
+        color: #f1f1f1;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .banner_text .text_ani h2 {
+        font-size: 31px;
+        width: 293px;
+    }
+    @keyframes animat {
+        0%,10%,100% {
+            background-position: -293px 0;
+        }
+        65%,85% {
+            background-position: 0 0;
+        }
+    }
+    .banner_text p {
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    }
+    @mixin btn576{
+        padding: 4px 4px;
+        font-weight: 600;
+        width: 93px;
+        font-size: 15px;
+    }
+    .ban_btn {
+        margin-top: 24px;
+    }
+    .ban_btn a {
+        @include btn576;
+    }
+    .ban_icon {
+        margin-top: 22px;
+    }
+    .ban_icon a {
+        width: 30px;
+        height: 30px;
+        margin-right: 14px;
+        font-size: 14px;
+    }
+    .banner_img {
+        text-align: end;
+        margin-top: 0;
+    }
+    .banner_img img {
+        width: 90%;
+    }
+    // banner end
+
+    // about start
+    #about{
+        padding-bottom: 20px !important;
+    }
+    @mixin header576{
+        font-size: 50px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .about_head h2{
+        @include header576;
+    }
+    .about_img {
+        width: 280px;
+        height: 280px;
+    }
+    .about_text h2 {
+        margin-top: 20px;
+    }
+    .about_text p {
+        padding: 0;
+        line-height: 26px;
+    }
+    .about_btn a {
+        @include btn576;
+        width: 100px;
+    }
+    // about end
+    
+    // journey start
+    #journey {
+        background-color: #091b29;
+        padding-bottom: 36px;
+    }
+    .journey_head h2{
+        @include header576;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .titel h2 {
+        color: #f1f1f1 !important;
+        margin-bottom: 15px;
+        margin-top: 26px;
+        margin-left: 20px;
+    }
+    // journey end
+
+    //skils start
+    #skills {
+        padding-bottom: 30px;
+    }
+    .skils_head h2{
+        @include header576;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .skills_titel h2 {
+        font-size: 22px;
+        margin-top: 25px;
+    }
+    //skils end
+
+    //contact start
+    #contact{
+        padding-bottom: 24px;
+    }
+    .contact_head h2{
+        @include header576;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .form {
+        display: grid;
+        gap: 0;
+    }
+    .input {
+        border: 2px solid #1291c8;
+        border-radius: 5px;
+        padding: 15px 20px;
+        background-color: transparent;
+        color: #f1f1f1 !important;
+        outline: 0;
+        width: 100%;
+        margin-top: 24px;
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+    .textarea {
+        margin-top: 20px;
+        height: 100px;
+    }
+    .contact_button a {
+        @include btn576;
+    }
+    //contact end
+
+    // footer start
+    footer p {
+        font-size: 13px;
+        text-align: center;
+    }
+    .footer_icon {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .footer_icon a{
+        width: 25px;
+        height: 25px;
+        font-size: 13px;
+        margin-right: 14px;
+    }
+    // footer end
+
+    // back btn start
+    .scl_btn i {
+        bottom: 9px !important;
+        width: 27px !important;
+        height: 27px !important;
+        line-height: 25px !important;
+        font-size: 15px !important;
+        animation: ami 1s !important;
+    }
+    @keyframes ami{
+        from { right:50px; bottom:-10px; }
+        to { right: 50px; bottom: 10px;}
+    }
+    // back btn end
+}
+
+@media(min-width:768px) and (max-width:991.98px){
+    // nav start
+    .navbar-toggler:focus{
+        outline: 0;
+        box-shadow: 0 0 0 transparent !important;
+    }
+    .main_menu ul li {
+        width: 95px;
+    }
+    // nav end
+
+    // banner start
+    #banner {
+        position: relative;
+        margin-top: -105px;
+        background-color: #091b29;
+    }
+    .banner_text h1 {
+        color: #f1f1f1;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .banner_text .text_ani h2 {
+        font-size: 31px;
+        width: 293px;
+    }
+    @keyframes animat {
+        0%,10%,100% {
+            background-position: -293px 0;
+        }
+        65%,85% {
+            background-position: 0 0;
+        }
+    }
+    .banner_text p {
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    }
+    .ban_btn {
+        margin-top: 24px;
+    }
+    .ban_icon {
+        margin-top: 22px;
+    }
+    .banner_img {
+        text-align: end !important;
+        margin-top: 0;
+    }
+    .banner_img img {
+        width: 90%;
+    }
+    // banner end
+
+    // about start
+    #about{
+        padding-bottom: 20px !important;
+    }
+    .about_img {
+        width: 280px;
+        height: 280px;
+    }
+    .about_text h2 {
+        margin-top: 20px;
+    }
+    .about_text p {
+        padding: 0;
+        line-height: 26px;
+    }
+    // about end
+    
+    // journey start
+    #journey {
+        background-color: #091b29;
+        padding-bottom: 36px;
+    }
+    .journey_head h2{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .titel h2 {
+        color: #f1f1f1 !important;
+        margin-bottom: 15px;
+        margin-top: 26px;
+        margin-left: 20px;
+    }
+    // journey end
+
+    //skils start
+    #skills {
+        padding-bottom: 30px;
+    }
+    .skils_head h2{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .skills_titel h2 {
+        font-size: 22px;
+        margin-top: 25px;
+    }
+    //skils end
+
+    //contact start
+    #contact{
+        padding-bottom: 24px;
+    }
+    .contact_head h2{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .form {
+        display: grid;
+        gap: 0;
+    }
+    .input {
+        border: 2px solid #1291c8;
+        border-radius: 5px;
+        padding: 15px 20px;
+        background-color: transparent;
+        color: #f1f1f1 !important;
+        outline: 0;
+        width: 100%;
+        margin-top: 24px;
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+    .textarea {
+        margin-top: 20px;
+        height: 100px;
+    }
+    //contact end
+
+    // footer start
+    footer p {
+        font-size: 15px;
+        text-align: start;
+    }
+    .footer_icon {
+        text-align: end;
+    }
+    .footer_icon a{
+        width: 25px;
+        height: 25px;
+        font-size: 13px;
+        margin-right: 13px;
+    }
+    // footer end
+
+    // back btn start
+    .scl_btn i{
+        position: fixed;
+        right: 38px !important;
+        width: 30px !important;
+        height: 30px !important;
+        line-height: 28px !important;
+        font-size: 16px !important;
+        animation: ami 1s;
+    }    
+    @keyframes ami{
+        from { right:38px; bottom:-50px !important; }
+        to { right: 38px; bottom: 55px !important;}
+    }
+    // back btn end
+}
+
+
+

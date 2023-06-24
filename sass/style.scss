@@ -1,0 +1,53 @@
+@import "../sass/components/commone";
+@import "../sass/components/menu";
+@import "../sass/components/banner";
+@import "../sass/components/about";
+@import "../sass/components/journey";
+@import "../sass/components/sikills";
+@import "../sass/components/contact";
+@import "../sass/components/footer";
+@import "../sass/components/responsive";
+
+/* ============ Scroll button start =========== */
+.scl_btn i{
+    position: fixed;
+    right: 50px;
+    bottom: 55px;
+    width: 35px;
+    height: 35px;
+    color: #1291c8;
+    border: 2px solid #1291c8;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    z-index: 9999;
+    font-size: 18px;
+    display: none;
+    animation: ami 1s;
+    overflow: hidden;
+    transition: .3s;
+    &:hover{
+        color: #091b29;
+    }
+    &:hover::after{
+        background-color: #05a4ea;
+        width: 100%;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 100%;
+        background-color: #05a4ea;
+        border-radius: 50%;
+        transition: .3s;
+        z-index: -1;
+    }
+}    
+@keyframes ami{
+    from { right:50px; bottom:-50px; }
+    to { right: 50px; bottom: 55px;}
+}
+/* ============ Scroll button end =========== */

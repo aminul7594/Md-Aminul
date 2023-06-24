@@ -1,0 +1,47 @@
+.main_menu {
+    background-color: #091b29;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
+.navbar-brand h2{
+    font-weight: 700;
+}
+.navbar-brand span{
+    color: #1291c8;
+}
+.bg{
+    animation: bg .7s;
+}
+@keyframes bg {
+    from{
+        top: -50%;
+    }
+    to{
+        top: 0;
+    }
+}
+.active{
+    color: #1291c8 !important;
+}
+.main_menu .navbar-brand h2{
+    color: #f1f1f1;
+    margin-bottom: 0;
+    font-family: 'Roboto';
+}
+.main_menu ul li{
+    width: 110px;
+}
+.main_menu ul li a{
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    &:hover{
+        color: #1291c8 !important;
+    }
+}
